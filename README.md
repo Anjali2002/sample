@@ -1,16 +1,15 @@
-*Hi
-*Hello
-# This is an <h1> tag
-## This is an <h2> tag
-###### This is an <h6> tag
-*This text will be italic*
-_This will also be italic_
+#Steps to push local file to remote
 
-**This text will be bold**
-__This will also be bold__
+*First on local go to your project directory
+*Clone your local directory to local
 
-_You **can** combine them_
-* Item 1
-* Item 2
-  * Item 2a
-  * Item 2b
+$ git clone https://github.com/username/sample
+
+*copy/update your local updated file to the cloned folder structure
+*commit the file changes
+
+$git commit -a -m "comments"
+
+*run $git status
+*run $git push origin master
+
